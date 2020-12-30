@@ -1,0 +1,19 @@
+
+<div class="navbar">
+    <a (click)="navigateToHome()"><b>Home</b></a>
+    <a (click)="navigateToGiftCards()"><b>Gift Cards</b></a>
+    <a (click)="navigateToDelivery()"><b>Delivery</b></a>
+    <div class="dropdown">
+      <button class="dropbtn" (click)="navigateToAccount()"><b>Account & List</b></button>
+      <div class="dropdown-content">
+        <a >Accounts</a>
+        <a >Returns</a>
+        <a >Orders</a>
+      </div>
+    </div> 
+    <a (click)="navigateToCart()"><b>Cart</b></a>
+    <div class="search">
+      <input type="text" (click)="navigateToSearch()"><button type="submit">Submit</button>
+    </div>
+  </div>
+
